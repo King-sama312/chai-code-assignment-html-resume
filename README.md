@@ -1,3 +1,5 @@
+link to website: https://king-sama312.github.io/chai-code-assignment-html-resume/
+
 ![Resume Screenshot](./screenshot.jpg)
 
 
