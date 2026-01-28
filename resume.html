@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Harman Panwar - Resume</title>
 </head>
 
 <body>
@@ -12,101 +12,132 @@
         <h1>Harman Panwar</h1>
         <p>FullStack Web Developer | Tech Enthusiast | Web Designer</p>
     </header>
+
     <hr>
 
     <main>
-        <h2>About Me</h2>
-        <p>I am a passionate Developer with 5+ years of experience building web applications. I specialize in HTML, CSS,
-            JavaScript, React, Next.js and Backend technologies</p>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate Developer with 5+ years of experience building web applications. I specialize in HTML,
+                CSS, JavaScript, React, Next.js and Backend technologies.</p>
+        </section>
+
         <hr>
 
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML5 and CSS3</li>
-            <li>JavaScript/li>
-            <li>React and Vue.js</li>
-            <li>Node.js and Express</li>
-            <li>MongoDB and MySQL</li>
-            <li>Git & GitHub</li>
-        </ul>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 and CSS3</li>
+                <li>JavaScript</li>
+                <li>React and Vue.js</li>
+                <li>Node.js and Express</li>
+                <li>MongoDB and MySQL</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
         <hr>
 
-        <h2>Experience</h2>
-        <table border="1">
-            <thead>
-                <th>Position</th>
-                <th>Company</th>
-                <th>Duration</th>
-            </thead>
-            <tr>
-                <td>Senior Developer</td>
-                <td>Tech Solutions Inc.</td>
-                <td>2021 - Present</td>
-            </tr>
-            <tr>
-                <td>Web Developer</td>
-                <td>Digital Innovations</td>
-                <td>2019 - 2021</td>
-            </tr>
-            <tr>
-                <td>Junior Developer</td>
-                <td>StartUp Co.</td>
-                <td>2018 - 2019</td>
-            </tr>
+        <section id="experience">
+            <h2>Experience</h2>
+            <table border="1">
+                <caption>Work Experience</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Position</th>
+                        <th scope="col">Company</th>
+                        <th scope="col">Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Senior Developer</th>
+                        <td>Tech Solutions Inc.</td>
+                        <td>2021 - Present</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Web Developer</th>
+                        <td>Digital Innovations</td>
+                        <td>2019 - 2021</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Junior Developer</th>
+                        <td>StartUp Co.</td>
+                        <td>2018 - 2019</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-        </table>
         <hr>
 
-        <h2>Projects</h2>
-        <h3>Project-1 E-commerce Website</h3>
-        <p>Built a fully functional e-commerce platform with product listings, cart management and payment integration
-        </p>
-        <ul>
-            <li>Technologies: React, Node.js and MongoDB</li>
-            <li>Timeline: 6 months</li>
-        </ul>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Project-1 E-commerce Website</h3>
+                <p>Built a fully functional e-commerce platform with product listings, cart management and payment
+                    integration.</p>
+                <ul>
+                    <li>Technologies: React, Node.js and MongoDB</li>
+                    <li>Timeline: 6 months</li>
+                </ul>
+            </article>
 
-        <h3>Project-2 Blog Platform</h3>
-        <p>Developed a blogging platform with user authentication and content management features. </p>
-        <ul>
-            <li>Technologies: HTML, CSS, JavaScript, Express</li>
-            <li>Timeline: 3 months</li>
-        </ul>
+            <article>
+                <h3>Project-2 Blog Platform</h3>
+                <p>Developed a blogging platform with user authentication and content management features.</p>
+                <ul>
+                    <li>Technologies: HTML, CSS, JavaScript, Express</li>
+                    <li>Timeline: 3 months</li>
+                </ul>
+            </article>
+        </section>
+
         <hr>
 
-        <h2>Education</h2>
-        <table border="1">
-            <thead>
-                <th>Degree</th>
-                <th>Institution</th>
-                <th>Year</th>
-            </thead>
-            <tr>
-                <td>Bachelor in Computer Science</td>
-                <td>State university</td>
-                <td>2018</td>
-            </tr>
-            <tr>
-                <td>Web Development Bootcamp</td>
-                <td>ChaiCode university</td>
-                <td>2017</td>
-            </tr>
-        </table>
-        <hr>
+        <section id="education">
+            <h2>Education</h2>
+            <table border="1">
+                <caption>Education Details</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Degree</th>
+                        <th scope="col">Institution</th>
+                        <th scope="col">Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Bachelor in Computer Science</th>
+                        <td>State university</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Web Development Bootcamp</th>
+                        <td>ChaiCode university</td>
+                        <td>2017</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
 
+    <hr>
+
     <footer>
-        <h2>Contact</h2>
-        <p> <strong>Email:</strong>harmanpanwar001@gmail.com</p>
-        <p> <strong>Phone:</strong>+1(555) 12345-67</p>
-        <p> <strong>Location:</strong>New York, USA</p>
+        <section id="contact">
+            <h2>Contact</h2>
+            <address>
+                <p><strong>Email:</strong> <a href="mailto:harmanpanwar001@gmail.com">harmanpanwar001@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+15551234567">+1 (555) 12345-67</a></p>
+                <p><strong>Location:</strong> New York, USA</p>
+            </address>
+        </section>
 
         <hr>
 
-        <p>&copy; 2026 Harman Panwar. All rights reserved</p>
-
+        <p><small>&copy; 2026 Harman Panwar. All rights reserved.</small></p>
     </footer>
-
 </body>
 
 </html>
